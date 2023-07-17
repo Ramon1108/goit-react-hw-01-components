@@ -1,5 +1,5 @@
 import css from './ProfileDescription.module.css'
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 export const ProfileDescription = ({ name }) => {
     return <div className={css.description}>
