@@ -1,0 +1,20 @@
+.statlist {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+.item {
+  display: block;
+  border: 1px solid black;
+  width: 75px;
+  height: max-content;
+  text-align: center;
+}
+.percentage {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+}
+.label {
+  display: block;
+}

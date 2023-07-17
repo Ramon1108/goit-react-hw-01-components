@@ -1,0 +1,27 @@
+.description {
+  margin-bottom: 32px;
+}
+.avatar {
+  border-radius: 50%;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  height: 320px;
+  width: 320px;
+}
+.profilename {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+.tag {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.45);
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+.location {
+  font-size: 24px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
