@@ -1,9 +1,9 @@
 import css  from './Profile.module.css'
 import { ProfileDescription } from './ProfileDescription/ProfileDescription'
 import {Statistics} from './ProfileStatistics/ProfileStatistics'
-import user from 'data/user.json' 
 
-export const Profile = ({}) => {
+
+export const Profile = ({user}) => {
     return <div className={css.container}>        
         <ProfileDescription name={user} />
 

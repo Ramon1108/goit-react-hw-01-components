@@ -1,9 +1,9 @@
-export const TransactionHistoryHead = ({ }) => {
+export const TransactionHistoryHead = ({ collumns }) => {
     return <thead>
     <tr>
-      <th>Type</th>
-      <th>Amount</th>
-      <th>Currency</th>
+      {collumns.map((col) => (
+        <th key={col}>{col}</th>))
+      }
     </tr>
   </thead>
 }

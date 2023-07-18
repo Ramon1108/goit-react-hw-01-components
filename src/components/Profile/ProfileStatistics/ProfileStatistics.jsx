@@ -1,4 +1,4 @@
-import css  from "./ProfileStatistics.module.css"
+import css from "./ProfileStatistics.module.css"
 export const Statistics = ({ stats }) => {
   return <ul className={css.statistics}>
  {Object.entries(stats).map(([key, value]) => (
