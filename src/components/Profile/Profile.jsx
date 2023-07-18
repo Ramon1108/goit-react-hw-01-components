@@ -8,7 +8,7 @@ export const Profile = ({ user }) => {
     return <div className={css.container}>        
         <ProfileDescription avatar={avatar} username={username} tag={tag} location={location} />
 
-        <Statistics stats={user.stats} />
+        <Statistics stats={stats} />
                
     </div>
 }
