@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 export const TransactionHistoryHead = ({ collumns }) => {
     return <thead>
     <tr>
@@ -7,3 +9,6 @@ export const TransactionHistoryHead = ({ collumns }) => {
     </tr>
   </thead>
 }
+
+
+TransactionHistoryHead.propTypes = {collumns:PropTypes.array.isRequired,}
